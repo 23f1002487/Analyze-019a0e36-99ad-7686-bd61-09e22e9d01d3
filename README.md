@@ -1,1 +1,6 @@
-# Analyze-019a0e36-99ad-7686-bd61-09e22e9d01d3
+# CI Task Implementation
+
+This project provides a complete web-based interface that demonstrates the following functionalities:
+
+1. **Data Files Management:**
+   - The original 
