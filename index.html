@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CI Task Implementation</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>CI Task Implementation</h1>
+<section>
+<h2>Upload Data Files</h2>
+<p>Note: The data.xlsx has been converted to data.csv for download.</p>
+<a id="downloadCsv" href="#" download="data.csv">Download data.csv</a>
+</section>
+<section>
+<h2>Result Actions</h2>
+<button id="runExecute">Run execute.py</button>
+<pre id="outputResult" style="background:#f4f4f4; padding:10px; overflow:auto;"></pre>
+</section>
+<section>
+<h2>Published Results</h2>
+<p>Result JSON published at: <a id="resultLink" href="https://<your-github-username>.github.io/<your-repo-name>/result.json" target="_blank">result.json</a></p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
